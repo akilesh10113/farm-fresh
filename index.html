@@ -1,0 +1,833 @@
+<!doctype html>
+<html class="no-js" lang="en">
+
+    <head>
+        <!-- meta data -->
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
+        <!--font-family-->
+		<link href="https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+
+		<link href="https://fonts.googleapis.com/css?family=Rufina:400,700" rel="stylesheet">
+        
+        <!-- title of site -->
+        <title>FarmFresh</title>
+
+        <!-- For favicon png -->
+		<link rel="shortcut icon" type="image/icon" href="assets/logo/favicon.png"/>
+       
+        <!--font-awesome.min.css-->
+        <link rel="stylesheet" href="assets/css/font-awesome.min.css">
+
+        <!--linear icon css-->
+		<link rel="stylesheet" href="assets/css/linearicons.css">
+
+        <!--flaticon.css-->
+		<link rel="stylesheet" href="assets/css/flaticon.css">
+
+		<!--animate.css-->
+        <link rel="stylesheet" href="assets/css/animate.css">
+
+        <!--owl.carousel.css-->
+        <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+		<link rel="stylesheet" href="assets/css/owl.theme.default.min.css">
+		
+        <!--bootstrap.min.css-->
+        <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+		
+		<!-- bootsnav -->
+		<link rel="stylesheet" href="assets/css/bootsnav.css" >	
+        
+        <!--style.css-->
+        <link rel="stylesheet" href="assets/css/style.css">
+        
+        <!--responsive.css-->
+        <link rel="stylesheet" href="assets/css/responsive.css">
+        
+        <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+		
+        <!--[if lt IE 9]>
+			<script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+			<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+        <![endif]-->
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		
+
+    </head>
+	
+	<body>
+		<!--[if lte IE 9]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+        <![endif]-->
+	
+		<!--welcome-hero start -->
+		<section id="home" class="welcome-hero">
+
+			<!-- top-area Start -->
+			<div class="top-area">
+				<div class="header-area">
+					<!-- Start Navigation -->
+				    <nav class="navbar navbar-default bootsnav  navbar-sticky navbar-scrollspy"  data-minus-value-desktop="70" data-minus-value-mobile="55" data-speed="1000">
+
+				        <div class="container">
+
+				            <!-- Start Header Navigation -->
+				            <div class="navbar-header">
+				                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-menu">
+				                    <i class="fa fa-bars"></i>
+				                </button>
+				                <a class="navbar-brand" href="index.html">FarmFresh<span></span></a>
+
+				            </div><!--/.navbar-header-->
+				            <!-- End Header Navigation -->
+
+				            <!-- Collect the nav links, forms, and other content for toggling -->
+				            <div class="collapse navbar-collapse menu-ui-design" id="navbar-menu">
+				                <ul class="nav navbar-nav navbar-right" data-in="fadeInDown" data-out="fadeOutUp">
+				                    <li class=" scroll active"><a href="#home">home</a></li>
+				                    <li class="scroll"><a href="#features">features</a></li>
+									<li class="scroll"><a href="#recentlyadded">recently added</a></li>
+				                    <li class="scroll"><a href="#products">products</a></li>
+				                    <li class="scroll"><a href="#contact">contact</a></li>
+				                </ul><!--/.nav -->
+				            </div><!-- /.navbar-collapse -->
+				        </div><!--/.container-->
+				    </nav><!--/nav-->
+				    <!-- End Navigation -->
+				</div><!--/.header-area-->
+			    <div class="clearfix"></div>
+
+			</div><!-- /.top-area-->
+			<!-- top-area End -->
+
+			<div class="container">
+				<div class="welcome-hero-txt">
+					<h2>Fresh Picks, Fab Deals!</h2>
+					<p>
+						From our farm to your table, FreshPicks Marketplace bridges the gap with a click. Taste the difference that true farm-to-fork can make. 
+					</p>
+					<button class="welcome-btn" onclick="window.location.href='#products'">shop now</button>
+				</div>
+			</div>
+
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<div class="model-search-content">
+							<div class="row">
+								<div class="col-md-offset-1 col-md-2 col-sm-12">
+									<div class="single-model-search">
+										<h2>select type</h2>
+										<div class="model-select-icon">
+											<select class="form-control">
+
+											  	<option value="type">type</option><!-- /.option-->
+
+											  	<option value="fruits">fruits</option><!-- /.option-->
+
+											  	<option value="vegetables">vegetables</option><!-- /.option-->
+											  	
+											</select><!-- /.select-->
+										</div><!-- /.model-select-icon -->
+									</div>
+									
+									
+								</div>
+								<div class="col-md-offset-1 col-md-2 col-sm-12">
+									<div class="single-model-search">
+										<h2>select price</h2>
+										<div class="model-select-icon">
+											<select class="form-control">
+
+											  	<option value="price">price</option><!-- /.option-->
+
+											  	<option value="below 500">below 500</option><!-- /.option-->
+
+											  	<option value="above 500">above 500</option><!-- /.option-->
+											  	
+
+											</select><!-- /.select-->
+										</div><!-- /.model-select-icon -->
+									</div>
+								</div>
+								<div class="col-md-offset-1 col-md-2 col-sm-12">
+									<div class="single-model-search">
+										<h2>customer review</h2>
+										<div class="model-select-icon">
+											<select class="form-control">
+
+											  	<option value="d">review</option><!-- /.option-->
+
+											  	<option value="t">⭑⭑⭑⭑⭒ & up</option><!-- /.option-->
+
+											  	<option value="h">⭑⭑⭑⭒⭒ & up</option><!-- /.option-->
+											  	<option value="m">⭑⭑⭒⭒⭒ & up</option><!-- /.option-->
+
+											</select><!-- /.select-->
+										</div><!-- /.model-select-icon -->
+									</div>
+									
+								
+									
+								</div>
+								<div class="col-md-2 col-sm-12">
+									<div class="single-model-search text-center">
+										<button class="welcome-btn model-search-btn" onclick="window.location.href='#products1'">
+											search
+										</button>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+		</section><!--/.welcome-hero-->
+		<!--welcome-hero end -->
+
+		<!--service start -->
+		<section id="features" class="features">
+			<div class="container">
+				<div class="service-content">
+					<div class="row">
+						<div class="col-md-4 col-sm-6">
+							<div class="single-service-item">
+								<div class="single-service-icon">
+									
+								</div>
+								<h2><a href="#">freshly picked </a></h2>
+								<p>
+									FramFresh. brings the essence of nature to your table, delivering hand-picked, farm-fresh vegetables and fruits. Experience the flavor straight from our bountiful fields, right to your plate.  
+								</p>
+							</div>
+						</div>
+						<div class="col-md-4 col-sm-6">
+							<div class="single-service-item">
+								<div class="single-service-icon">
+									
+								</div>
+								<h2><a href="#">best quality</a></h2>
+								<p>
+									FramFresh offers an exceptional range of premium, farm-fresh produce - where quality meets nature's finest. Our dedication to excellence ensures a harvest you can trust and savor.  
+								</p>
+							</div>
+						</div>
+						<div class="col-md-4 col-sm-6">
+							<div class="single-service-item">
+								<div class="single-service-icon">
+									
+								</div>
+								<h2><a href="#">Best Price</a></h2>
+								<p>
+									FramFresh offers prime, affordable farm-fresh produce at unbeatable prices. Savor excellence without breaking the bank, relish farm-to-fork quality, and enjoy exceptional flavor and nutrition
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div><!--/.container-->
+
+		</section><!--/.service-->
+		<!--service end-->
+
+		<!--recentlyadded start -->
+		<section id="recentlyadded" class="recentlyadded">
+			<div class="container">
+				<div class="section-header">
+					<p>checkout <span>the</span> latest products</p>
+					<h2>fresh vegetables & fruits</h2>
+				</div><!--/.section-header-->
+				<div class="new-cars-content">
+					<div class="owl-carousel owl-theme" id="new-cars-carousel">
+						<div class="item">
+							<div class="singleitem">
+								<div class="row">
+									<div class="col-md-7 col-sm-12">
+										<div class="newimg">
+											<img src="assets/images/wallpaperflare.com_wallpaper 21.jpg" alt="img"/>
+										</div><!--/.new-cars-img-->
+									</div>
+									<div class="col-md-5 col-sm-12">
+										<div class="new--txt">
+											<h2><a href="#">fresh vegitables </a></h2>
+											<p>
+												Welcome to Farm Fresh – your digital gateway to farm-fresh goodness. Explore our lush fields and discover a diverse array of freshly harvested vegetables, carefully cultivated to nourish your body and delight your palate. Join us in celebrating the bounties of nature, delivered straight from our farm to your table with love and care.
+											</p>
+											<button class="welcome-btn new-cars-btn" onclick="window.location.href='#'">
+												view details
+											</button>
+										</div><!--/.new-cars-txt-->	
+									</div><!--/.col-->
+								</div><!--/.row-->
+							</div><!--/.single-new-cars-item-->
+						</div><!--/.new-cars-item-->
+						<div class="new-cars-item">
+							<div class="single-new-cars-item">
+								<div class="row">
+									<div class="col-md-7 col-sm-12">
+										<div class="new-cars-img">
+											<img src="assets/images/wallpaperflare.com_wallpaper 19.jpg" alt="img"/>
+										</div><!--/.new-cars-img-->
+									</div>
+									<div class="col-md-5 col-sm-12">
+										<div class="new-cars-txt">
+											<h2><a href="#">Fresh Fruits</a></h2>
+											<p>
+												Welcome to Farm Fresh – your digital gateway to farm-fresh goodness. Explore our lush fields and discover a diverse array of freshly harvested fruits, carefully cultivated to nourish your body and delight your palate. Join us in celebrating the bounties of nature, delivered straight from our farm to your table with love and care.
+											</p>
+											
+											<button class="welcome-btn new-cars-btn" onclick="window.location.href='#'">
+												view details
+											</button>
+										</div><!--/.new-cars-txt-->	
+									</div><!--/.col-->
+								</div><!--/.row-->	
+							</div><!--/.single-new-cars-item-->
+						</div><!--/.new-cars-item-->
+						
+
+		</section><!--/.new-cars-->
+		<!--new-cars end -->
+
+		<!--products start -->
+		<section id="products" class="products">
+			<div class="container">
+				<div class="section-header">
+					<p>checkout <span>the</span> products</p>
+					<h2>fresh vegitables</h2>
+				</div><!--/.section-header-->
+				<div class="featured-cars-content">
+					<div class="row">
+						<div class="col-lg-3 col-md-4 col-sm-6">
+							<div class="single-featured-cars">
+								<div class="featured-img-box">
+									<div class="featured-cars-img">
+										<img src="assets/images/wallpaperflare.com_wallpaper 2.jpg" alt="">
+									</div>
+									<div class="featured-model-info">
+										<p>
+											carrot
+											
+										</p>
+									</div>
+								</div>
+								<div class="featured-cars-txt">
+									<h2><a href="#">carrot</a></h2>
+									<h3>₹69 /Kg</h3>
+									<p>
+										"Fuel your day with a carrot" 
+									</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-3 col-md-4 col-sm-6">
+							<div class="single-featured-cars">
+								<div class="featured-img-box">
+									<div class="featured-cars-img">
+										<img src="assets/images/wallpaperflare.com_wallpaper 6.jpg" alt="">
+									</div>
+									<div class="featured-model-info">
+										<p>
+											capsicum
+											
+										</p>
+									</div>
+								</div>
+								<div class="featured-cars-txt">
+									<h2><a href="#">capsicum</a></h2>
+									<h3>₹80 /Kg</h3>
+									<p>
+										"Taste the freshness"  
+									</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-3 col-md-4 col-sm-6">
+							<div class="single-featured-cars">
+								<div class="featured-img-box">
+									<div class="featured-cars-img">
+										<img src="assets/images/wallpaperflare.com_wallpaper 10.jpg" alt="">
+									</div>
+									<div class="featured-model-info">
+										<p>
+											pumpkin
+											
+										</p>
+									</div>
+								</div>
+								<div class="featured-cars-txt">
+									<h2><a href="#">pumpkin</a></h2>
+									<h3>₹200 /Kg</h3>
+									<p>
+										"Pumpkin kisses & harvest wishes"
+									</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-3 col-md-4 col-sm-6">
+							<div class="single-featured-cars">
+								<div class="featured-img-box">
+									<div class="featured-cars-img">
+										<img src="assets/images/potatoes-411975_1920.jpg" alt="">
+									</div>
+									<div class="featured-model-info">
+										<p>
+											potato
+											
+										</p>
+									</div>
+								</div>
+								<div class="featured-cars-txt">
+									<h2><a href="#">potato</a></h2>
+									<h3>₹60 /Kg</h3>
+									<p>
+										"Crispy on the outside, fluffy on the inside."
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-lg-3 col-md-4 col-sm-6">
+							<div class="single-featured-cars">
+								<div class="featured-img-box">
+									<div class="featured-cars-img">
+										<img src="assets/images/red-beets-1725799_1920.jpg" alt="">
+									</div>
+									<div class="featured-model-info">
+										<p>
+											Beetroot
+											
+										</p>
+									</div>
+								</div>
+								<div class="featured-cars-txt">
+									<h2><a href="#">beetroot</a></h2>
+									<h3>₹130 /Kg</h3>
+									<p>
+										"The tastiest way to health "
+									</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-3 col-md-4 col-sm-6">
+							<div class="single-featured-cars">
+								<div class="featured-img-box">
+									<div class="featured-cars-img">
+										<img src="assets/images/vegetables-19727_1920.jpg" alt="">
+									</div>
+									<div class="featured-model-info">
+										<p>
+											Bittergourd
+											
+										</p>
+									</div>
+								</div>
+								<div class="featured-cars-txt">
+									<h2><a href="#">Bittergourd</a></h2>
+									<h3>₹90 /Kg</h3>
+									<p>
+										"Eat healthy, feel healthy"
+									</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-3 col-md-4 col-sm-6">
+							<div class="single-featured-cars">
+								<div class="featured-img-box">
+									<div class="featured-cars-img">
+										<img src="assets/images/green-beans-2707996_1920.jpg" alt="">
+									</div>
+									<div class="featured-model-info">
+										<p>
+											beans
+											
+										</p>
+									</div>
+								</div>
+								<div class="featured-cars-txt">
+									<h2><a href="#">beans</a></h2>
+									<h3>₹50 /Kg</h3>
+									<p>
+										"Get your daily dose of protein with a bean!""
+									</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-3 col-md-4 col-sm-6">
+							<div class="single-featured-cars">
+								<div class="featured-img-box">
+									<div class="featured-cars-img">
+										<img src="assets/images/cauliflower-318209_1920.jpg" alt="">
+									</div>
+									<div class="featured-model-info">
+										<p>
+											cauliflower
+											
+										</p>
+									</div>
+								</div>
+								<div class="featured-cars-txt">
+									<h2><a href="#">cauliflower</a></h2>
+									<h3>₹200</h3>
+									<p>
+										"Cauliflower - The Veggie That Rules Them All!""
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div><!--/.container-->
+
+		</section><!--/.featured-cars-->
+		<!--featured-cars end -->
+<!--products start -->
+<section id="products1" class="products1">
+	<div class="container">
+		<div class="section-header">
+			<p>checkout <span>the</span> products</p>
+			<h2>fresh Fruits</h2>
+		</div><!--/.section-header-->
+		<div class="featured-cars-content">
+			<div class="row">
+				<div class="col-lg-3 col-md-4 col-sm-6">
+					<div class="single-featured-cars">
+						<div class="featured-img-box">
+							<div class="featured-cars-img">
+								<img src="assets/images/fruits/breakfast-1239438_1920.jpg" alt="">
+							</div>
+							<div class="featured-model-info">
+								<p>
+									kiwi
+									
+								</p>
+							</div>
+						</div>
+						<div class="featured-cars-txt">
+							<h2><a href="#">kiwi</a></h2>
+							<h3>₹100 /Kg</h3>
+							<p>
+								"Kiwified for your enjoyment"
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-3 col-md-4 col-sm-6">
+					<div class="single-featured-cars">
+						<div class="featured-img-box">
+							<div class="featured-cars-img">
+								<img src="assets/images/fruits/food-1239241_1920.jpg" alt="">
+							</div>
+							<div class="featured-model-info">
+								<p>
+									Mango
+									
+								</p>
+							</div>
+						</div>
+						<div class="featured-cars-txt">
+							<h2><a href="#">mango</a></h2>
+							<h3>₹180 /Kg</h3>
+							<p>
+								"Make Every Day a Mango-licious Day"
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-3 col-md-4 col-sm-6">
+					<div class="single-featured-cars">
+						<div class="featured-img-box">
+							<div class="featured-cars-img">
+								<img src="assets/images/fruits/tangerines-1721633_1920.jpg" alt="">
+							</div>
+							<div class="featured-model-info">
+								<p>
+									Tangerine
+									
+								</p>
+							</div>
+						</div>
+						<div class="featured-cars-txt">
+							<h2><a href="#">Tangerines</a></h2>
+							<h3>₹120 /Kg</h3>
+							<p>
+								"The perfect pop of color in your snack lineup"
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-3 col-md-4 col-sm-6">
+					<div class="single-featured-cars">
+						<div class="featured-img-box">
+							<div class="featured-cars-img">
+								<img src="assets/images/fruits/papaya-3349834_1920.jpg" alt="">
+							</div>
+							<div class="featured-model-info">
+								<p>
+									Papaya
+									
+								</p>
+							</div>
+						</div>
+						<div class="featured-cars-txt">
+							<h2><a href="#">Papaya</a></h2>
+							<h3>₹90 /Kg</h3>
+							<p>
+								"Delicious, nutritious, and oh-so-refreshing."
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-lg-3 col-md-4 col-sm-6">
+					<div class="single-featured-cars">
+						<div class="featured-img-box">
+							<div class="featured-cars-img">
+								<img src="assets/images/fruits/wallpaperflare.com_wallpaper 15.jpg" alt="">
+							</div>
+							<div class="featured-model-info">
+								<p>
+									banana
+									
+								</p>
+							</div>
+						</div>
+						<div class="featured-cars-txt">
+							<h2><a href="#">beetroot</a></h2>
+							<h3>₹50 /Kg</h3>
+							<p>
+								"Nature's Perfect Package"
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-3 col-md-4 col-sm-6">
+					<div class="single-featured-cars">
+						<div class="featured-img-box">
+							<div class="featured-cars-img">
+								<img src="assets/images/fruits/strawberries-3359755_1920.jpg" alt="">
+							</div>
+							<div class="featured-model-info">
+								<p>
+									Strawberry
+									
+								</p>
+							</div>
+						</div>
+						<div class="featured-cars-txt">
+							<h2><a href="#">Strawberry</a></h2>
+							<h3>₹140 /Kg</h3>
+							<p>
+								"An antioxidant powerhouse"
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-3 col-md-4 col-sm-6">
+					<div class="single-featured-cars">
+						<div class="featured-img-box">
+							<div class="featured-cars-img">
+								<img src="assets/images/fruits/pineapple-636562_1920.jpg" alt="">
+							</div>
+							<div class="featured-model-info">
+								<p>
+									Pineapple
+									
+								</p>
+							</div>
+						</div>
+						<div class="featured-cars-txt">
+							<h2><a href="#">Pineapple</a></h2>
+							<h3>₹50 /Kg</h3>
+							<p>
+								"Get Your Pineapple Buzz On!"
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-3 col-md-4 col-sm-6">
+					<div class="single-featured-cars">
+						<div class="featured-img-box">
+							<div class="featured-cars-img">
+								<img src="assets/images/fruits/grapes-2032838_1920.jpg" alt="">
+							</div>
+							<div class="featured-model-info">
+								<p>
+									Grapes
+									
+								</p>
+							</div>
+						</div>
+						<div class="featured-cars-txt">
+							<h2><a href="#">Grapes</a></h2>
+							<h3>₹200</h3>
+							<p>
+								 "Embrace G for a brighter tomorrow"
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div><!--/.container-->
+
+</section><!--/.featured-cars-->
+<!--featured-cars end -->
+		<!-- clients-say strat -->
+		<section id="clients-say"  class="clients-say">
+			<div class="container">
+				<div class="section-header">
+					<h2>what our clients say</h2>
+				</div><!--/.section-header-->
+				<div class="row">
+					<div class="owl-carousel testimonial-carousel">
+						<div class="col-sm-3 col-xs-12">
+							<div class="single-testimonial-box">
+								<div class="testimonial-description">
+									<div class="testimonial-info">
+										<div class="testimonial-img">
+											<img src="assets/images/Screenshot 2023-10-17 at 2.55.13 PM.png" alt="image of clients person" />
+										</div><!--/.testimonial-img-->
+									</div><!--/.testimonial-info-->
+									<div class="testimonial-comment">
+										<p>
+											I was impressed by the vast range of fruits and vegetables available on the platform. The diversity in produce offered allowed me to find exactly what I was looking for and even discover new items to try.
+										</p>
+									</div><!--/.testimonial-comment-->
+									<div class="testimonial-person">
+										<h2><a href="#">Deva</a></h2>
+										<h4>Coimbatore</h4>
+									</div><!--/.testimonial-person-->
+								</div><!--/.testimonial-description-->
+							</div><!--/.single-testimonial-box-->
+						</div><!--/.col-->
+						<div class="col-sm-3 col-xs-12">
+							<div class="single-testimonial-box">
+								<div class="testimonial-description">
+									<div class="testimonial-info">
+										<div class="testimonial-img">
+											<img src="assets/images/fruits/WhatsApp Image 2023-10-17 at 2.25.44 PM.jpeg" alt="image of clients person" />
+										</div><!--/.testimonial-img-->
+									</div><!--/.testimonial-info-->
+									<div class="testimonial-comment">
+										<p>
+											The quality and freshness of the fruits and vegetables I received were exceptional. It's evident that great care is taken to ensure that customers receive high-quality, fresh produce. 
+										</p>
+									</div><!--/.testimonial-comment-->
+									<div class="testimonial-person">
+										<h2><a href="#">Gowrishankar</a></h2>
+										<h4>Erode</h4>
+									</div><!--/.testimonial-person-->
+								</div><!--/.testimonial-description-->
+							</div><!--/.single-testimonial-box-->
+						</div><!--/.col-->
+						<div class="col-sm-3 col-xs-12">
+							<div class="single-testimonial-box">
+								<div class="testimonial-description">
+									<div class="testimonial-info">
+										<div class="testimonial-img">
+											<img src="assets/images/fruits/Screenshot 2023-10-17 at 2.36.40 PM.png" alt="image of clients person" />
+										</div><!--/.testimonial-img-->
+									</div><!--/.testimonial-info-->
+									<div class="testimonial-comment">
+										<p>
+											The pricing for the fruits and vegetables on the eMarketplace was reasonable and competitive. I appreciated the transparency in pricing and the ability to easily compare prices. 
+										</p>
+									</div><!--/.testimonial-comment-->
+									<div class="testimonial-person">
+										<h2><a href="#">Sanjay Kumar</a></h2>
+										<h4>Salem</h4>
+									</div><!--/.testimonial-person-->
+								</div><!--/.testimonial-description-->
+							</div><!--/.single-testimonial-box-->
+						</div><!--/.col-->
+					</div><!--/.testimonial-carousel-->
+				</div><!--/.row-->
+			</div><!--/.container-->
+
+		</section><!--/.clients-say-->	
+		<!-- clients-say end -->
+
+		
+		<!--blog start -->
+		<section id="blog" class="blog"></section><!--/.blog-->
+		<!--blog end -->
+
+		<!--contact start-->
+		<footer id="contact"  class="contact">
+			<div class="container">
+				<div class="footer-top">
+					<div class="row">
+						<div class="col-md-3 col-sm-6">
+							<div class="single-footer-widget">
+								<div class="footer-logo">
+									<a href="index.html">Farm fresh</a>
+								</div>
+								<p>
+									From our farm to your table, FreshPicks Marketplace bridges the gap with a click. Taste the difference that true farm-to-fork can make.
+								</p>
+								<div class="footer-contact">
+									<p>info@farmfresh.com</p>
+									<p>+91 6969696969</p>
+								</div>
+							</div>
+						</div>
+						
+						
+					</div>
+				</div>
+				
+			</div><!--/.container-->
+			
+
+			
+
+			
+				
+			</div><!--/.scroll-Top-->
+
+			<div className="right-j">
+				<form ref={form} className="email-container" onSubmit={sendEmail}>
+				  <input type="email" name="user_email" placeholder="Enter your Email address"></input>
+				  <button className="btn btn-j">Join Now</button>
+				</form>
+				</div>  
+
+				
+			
+        </footer><!--/.contact-->
+		<!--contact end-->
+
+
+		
+		<!-- Include all js compiled plugins (below), or include individual files as needed -->
+
+		<script src="assets/js/jquery.js"></script>
+        
+        <!--modernizr.min.js-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
+		
+		<!--bootstrap.min.js-->
+        <script src="assets/js/bootstrap.min.js"></script>
+		
+		<!-- bootsnav js -->
+		<script src="assets/js/bootsnav.js"></script>
+
+		<!--owl.carousel.js-->
+        <script src="assets/js/owl.carousel.min.js"></script>
+
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+
+        <!--Custom JS-->
+        <script src="assets/js/custom.js"></script>
+        
+    </body>
+	
+</html>
